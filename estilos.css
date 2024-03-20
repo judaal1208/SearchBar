@@ -1,0 +1,53 @@
+/* Estilos para la sección de inicio */
+body {
+    padding: 0;
+    margin: 0;
+}
+#inicio {
+    background-color:rgba(0, 255, 255, 0.571); /* Color de fondo gris claro */
+    padding: 10px; /* Espaciado interno */
+    font-size: 35px;
+}
+
+/* Estilos para el icono de la sección de inicio */
+#inicio i {
+    color: #020202; /* Color del icono (azul) */
+    font-size: 80px; /* Tamaño del icono */
+}
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #3a86ff; /* Azul */
+    padding: 0px 0; /* Espaciado interno */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilos para la lista de navegación */
+nav ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utiliza flexbox para el diseño */
+    justify-content: space-around; /* Distribuye los elementos de manera uniforme */
+}
+
+/* Estilos para los elementos de lista */
+nav li {
+    flex: 1; /* Hace que los elementos de lista se expandan uniformemente */
+    max-width: 150px; /* Ancho máximo de cada elemento */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilos para los enlaces */
+nav a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #111010; /* Color del texto (blanco) */
+    font-size: 40px; /* Tamaño de la fuente */
+    font-weight: bold; /* Negrita */
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+/* Estilos para los enlaces al pasar el cursor */
+nav a:hover {
+    background-color: #2655a5; /* Azul más oscuro */
+    color: #a8c1ff; /* Color del texto al pasar el cursor */
+}
