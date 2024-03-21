@@ -1,0 +1,106 @@
+/* Estilos para el body */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fa; /* Fondo gris claro */
+}
+
+/* Estilos para la sección de inicio */
+#inicio {
+    background-color: #007bff; /* Azul */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px; /* Espaciado interno aumentado */
+    font-size: 35px;
+    text-align: center; /* Alineación centrada */
+}
+
+/* Estilos para el icono de la sección de inicio */
+#inicio i {
+    color: #030303; /* Color  */
+    font-size: 80px; /* Tamaño del icono */
+}
+
+p {
+    margin: 50px 0 0 0;
+    font-size: 35px; /* Tamaño de la fuente */
+    padding: 20px; /* Espaciado interno */
+    background-color: #e9ecef; /* Fondo gris claro */
+    color: #333333; /* Texto gris oscuro */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #0056b3; /* Azul más oscuro */
+    padding: 10px 0; /* Espaciado interno ajustado */
+    text-align: center; /* Alineación centrada */
+}
+
+/* Estilos para la lista de navegación */
+nav ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utiliza flexbox para el diseño */
+    justify-content: space-around; /* Distribuye los elementos de manera uniforme */
+}
+
+/* Estilos para los elementos de lista */
+nav li {
+    flex: 1; /* Hace que los elementos de lista se expandan uniformemente */
+    max-width: 150px; /* Ancho máximo de cada elemento */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilos para los enlaces */
+nav a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #111010; /* Color del texto (blanco) */
+    font-size: 40px; /* Tamaño de la fuente */
+    font-weight: bold; /* Negrita */
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+/* Estilos para los enlaces al pasar el cursor */
+nav a:hover {
+    background-color: #007bff; /* Azul más claro al pasar el cursor */
+    color: #ffffff; /* Color del texto (blanco) */
+}
+
+/* Estilos para el contenido de la sección Nosotros */
+#nosotros {
+    font-size: 25px; /* Tamaño de la fuente */
+    padding: 20px; /* Espaciado interno */
+    background-color: #e9ecef; /* Fondo gris claro */
+    color: #333333; /* Texto gris oscuro */
+}
+
+/* Estilos para el contenido de la sección Nuestros Servicios */
+#servicios {
+    font-size: 25px; /* Tamaño de la fuente */
+    padding: 20px; /* Espaciado interno */
+    background-color: #e9ecef; /* Fondo gris claro */
+    color: #333333; /* Texto gris oscuro */
+}
+
+/* Estilos para el contenido de la sección Contacto */
+#contacto {
+    font-size: 25px; /* Tamaño de la fuente */
+    padding: 20px; /* Espaciado interno */
+    background-color: #e9ecef; /* Fondo gris claro */
+    color: #333333; /* Texto gris oscuro */
+}
+
+
+/* Estilos para la sección de imágenes */
+.imagenes-container {
+    display: flex; /* Utiliza flexbox para el diseño */
+    justify-content: space-around; /* Distribuye los elementos de manera uniforme */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin: 200px auto ; /* Añade un margen de 20px arriba, 40px abajo y centra horizontalmente las imágenes */
+}
+
+/* Estilos para las imágenes */
+.imagenes-container img {
+    max-width: 30%; /* Establece un ancho máximo para las imágenes */
+    height: auto; /* Hace que la altura se ajuste automáticamente para mantener la proporción de aspecto */
+}
